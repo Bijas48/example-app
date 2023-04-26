@@ -12,7 +12,7 @@
                     <a class="nav-link" aria-current="page" href="#">Tour</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Public Service</a>
+                    <a class="nav-link" href="#">Layanan Publik</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#">Login</a>
