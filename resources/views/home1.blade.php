@@ -49,21 +49,21 @@
     <div class="col-sm-3 col-md-4">
       <div class="card">
         <a href="#">
-          <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+          <img src="https://disipusda.purwakartakab.go.id/wp-content/uploads/2020/02/kantor-sekre.jpg" class="card-img-top" alt="...">
         </a>
       </div>
     </div>
     <div class="col-sm-3 col-md-4">
       <div class="card">
         <a href="#">
-          <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+          <img src="https://www.mandalapos.co.id/wp-content/uploads/2022/02/kemenag-purwakarta.png" class="card-img-top" alt="...">
         </a>
       </div>
     </div>
     <div class="col-sm-3 col-md-4">
       <div class="card">
         <a href="#">
-          <img src="https://picsum.photos/300/200" class="card-img-top" alt="...">
+          <img src="https://cdn0-production-images-kly.akamaized.net/4VHQS7Gfvmvm-LtcsEmtGjczWWE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2966692/original/029988300_1573650229-image2__7_.jpeg" class="card-img-top" alt="...">
         </a>
       </div>
     </div>
@@ -78,7 +78,7 @@
       <div class="col-sm-3 col-md-3">
         <div class="card">
           <a href="">
-            <img src="https://picsum.photos/id/90/100/100" class="card-img-top" alt="Image">
+            <img src="https://sikidang.com/wp-content/uploads/Taman-Air-Mancur-Sri-Baduga-1.jpg" class="card-img-top" alt="Image">
             <div class="card-img-overlay d-flex flex-column justify-content-end">
               <h5 class="card-title">Image Test</h5>
               <p class="card-text">Description of image</p>
@@ -93,7 +93,7 @@
       <div class="col-sm-3 col-md-3">
         <div class="card">
           <a href="">
-            <img src="https://picsum.photos/id/393/100/100" class="card-img-top" alt="Image">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMxLHB8LlpY1aUec8jlEqMYvN2W1FGTHjY295P7=s680-w680-h510" class="card-img-top" alt="Image">
             <div class="card-img-overlay d-flex flex-column justify-content-end">
               <h5 class="card-title">Image Test</h5>
               <p class="card-text">Description of image</p>
@@ -108,7 +108,7 @@
       <div class="col-sm-3 col-md-3">
         <div class="card">
           <a href="">
-            <img src="https://picsum.photos/id/78/100/100" class="card-img-top" alt="Image">
+            <img src="https://www.javatravel.net/wp-content/uploads/2021/10/Kegiatan-Curug-Tilu.jpg" class="card-img-top" alt="Image">
             <div class="card-img-overlay d-flex flex-column justify-content-end">
               <h5 class="card-title">Image Test</h5>
               <p class="card-text">Description of image</p>
@@ -123,7 +123,7 @@
       <div class="col-sm-3 col-md-3">
         <div class="card">
           <a href="">
-            <img src="https://picsum.photos/id/100/100/100" class="card-img-top" alt="Image">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNmHYMZOQ42Cif8gwoifirbquKb0AdhkkTx33Ve=s680-w680-h510" class="card-img-top" alt="Image">
             <div class="card-img-overlay d-flex flex-column justify-content-end">
               <h5 class="card-title">Image Test</h5>
               <p class="card-text">Description of image</p>
