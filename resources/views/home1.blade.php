@@ -146,27 +146,27 @@
     <div class="col-md-12">
       <div id="testimonial-slider" class="owl-carousel">
         <div class="testimonial">
-          <h3 class="title">Williamson
-            <span class="post">- Web Developer</span>
+          <h3 class="title">Ujang
+            <span class="post">- Seorang bapak</span>
           </h3>
           <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eu!
+            Purwakarta journey sangat membantu saya dalam bertamsya di Kota Istimewa ini
           </p>
         </div>
         <div class="testimonial">
-          <h3 class="title">Kristina
-            <span class="post">- Web Designer</span>
+          <h3 class="title">Emah
+            <span class="post">- Ibu PKK</span>
           </h3>
           <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eu!
+            Purwakarta Journey adalah sebuah web yang luar biasa! Mereka menyediakan informasi yang lengkap dan akurat tentang wisata alam di Purwakarta. Dengan bantuan web ini, saya bisa menemukan destinasi alam yang menakjubkan dan tersembunyi di daerah tersebut.
           </p>
         </div>
         <div class="testimonial">
-          <h3 class="title">Steve Thomas
-            <span class="post">- Web Developer</span>
+          <h3 class="title">Obleh
+            <span class="post">- Pengusaha</span>
           </h3>
           <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet eum excepturi incidunt laudantium nesciunt omnis, provident repudiandae rerum sed! Amet blanditiis eaque eu!
+            Informasi yang disediakan sangat berguna, terutama tentang wisata alam di Purwakarta. Saya mendapatkan banyak ide destinasi menarik yang belum pernah saya dengar sebelumnya.
           </p>
         </div>
       </div>
