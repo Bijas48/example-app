@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <footer>
     <div class="row justify-content-around mb-0 pt-5 pb-0 bg-dark">
         <div class="col-11">
