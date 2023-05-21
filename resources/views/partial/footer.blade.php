@@ -4,11 +4,11 @@
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <div class="square">
                     <div class="circle">
-                      <a href="#" class="circle-content">
-                        <p>Team Us</p>
-                      </a>
+                        <a href="#" class="circle-content">
+                            <p>Team Us</p>
+                        </a>
                     </div>
-                  </div>
+                </div>
             </div>
 
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
