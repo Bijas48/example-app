@@ -29,8 +29,8 @@
           </div>
         </div>
         <div id="isipost">
-          <h5 class="text-white">Situ Buled</h5>
-          <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro explicabo perferendis harum deserunt in inventore molestias qui repudiandae adipisci ea modi quam voluptatum, esse excepturi exercitationem sunt fuga tempore error.</p>
+          <h5>Situ Buled</h5>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro explicabo perferendis harum deserunt in inventore molestias qui repudiandae adipisci ea modi quam voluptatum, esse excepturi exercitationem sunt fuga tempore error.</p>
         </div>
       </div>
     </div>
