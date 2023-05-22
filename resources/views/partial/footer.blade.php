@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 <footer>
     <div class="row justify-content-around mb-0 pt-5 pb-0 bg-dark">
         <div class="col-11">
             <div class="row justify-content-center">
                 <div class="col-md-3 col-12 font-italic align-items-center mt-md-3 mt-4">
-                    <h5><span><img src="https://extendthemes.com/wp-content/uploads/2018/06/xbox-green-min.png" class="img-fluid mb-1"></span><b class="text-light"> Key<span class="text-muted"> Pass</span></b></h5>
+                    <h5><span><img src="{{ asset('images/Logopurwakarta.png') }}" class="img-fluid mb-1"></span><b class="text-light"> Key<span class="text-muted"> Pass</span></b></h5>
                     <p class="social mt-md-3 mt-2">
                         <span class="text-white"><i class="fa fa-facebook" aria-hidden="true"></i></span>
                         <span class="text-white"><i class="fa fa-instagram" aria-hidden="true"></i></span>

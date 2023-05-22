@@ -28,3 +28,7 @@ Route::get('/testing', function () {
 Route::get('/posts', function () {
     return view('posts');
 });
+
+Route::get('/post', function () {
+    return view('post');
+});

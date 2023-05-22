@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-md-6">
         <img src="https://picsum.photos/300/178" class="img-fluid" alt="...">
-        <div class="rating-wrap">
+        {{-- <div class="rating-wrap">
           <div class="center-rate">
             <h3>Rate</h3>
             <fieldset class="rating">
@@ -17,8 +17,9 @@
               <input type="radio" id="star1" name="rating" value="1"/><label for="star1" class="full"></label>
             </fieldset>
           </div>
-          {{-- <h4 id="rating-value"></h4> --}}
+          <h4 id="rating-value"></h4> 
         </div>
+         --}}
       </div>
       <div class="col-md-6">
         <div class="save">
