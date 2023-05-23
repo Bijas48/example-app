@@ -32,3 +32,7 @@ Route::get('/posts', function () {
 Route::get('/post', function () {
     return view('post');
 });
+
+Route::get('/layanan', function () {
+    return view('postlayanan');
+});

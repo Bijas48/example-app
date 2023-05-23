@@ -4,7 +4,7 @@
 
     <div class="container my-4">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <img src="https://picsum.photos/300/178" class="img-fluid" alt="...">
         {{-- <div class="rating-wrap">
           <div class="center-rate">
@@ -21,7 +21,7 @@
         </div>
          --}}
       </div>
-      <div class="col-md-6">
+      <div class="col-md-8">
         <div class="save">
           <div id="savecon">
             <h5 id="save-text">Save for later</h5>
@@ -29,8 +29,8 @@
           </div>
         </div>
         <div id="isipost">
-          <h5>Situ Buled</h5>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro explicabo perferendis harum deserunt in inventore molestias qui repudiandae adipisci ea modi quam voluptatum, esse excepturi exercitationem sunt fuga tempore error.</p>
+          <h5 class="text-white">Situ Buled</h5>
+          <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro explicabo perferendis harum deserunt in inventore molestias qui repudiandae adipisci ea modi quam voluptatum, esse excepturi exercitationem sunt fuga tempore error.</p>
         </div>
       </div>
     </div>

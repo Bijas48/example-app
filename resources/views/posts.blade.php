@@ -4,7 +4,7 @@
 
     <div class="container my-4">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <img src="https://picsum.photos/300/178" class="img-fluid" alt="...">
         {{-- <div class="rating-wrap">
           <div class="center-rate">
@@ -21,7 +21,7 @@
         </div>
          --}}
       </div>
-      <div class="col-md-6">
+      <div class="col-md-8">
         <div class="save">
           <div id="savecon">
             <h5 id="save-text">Save for later</h5>
@@ -39,18 +39,22 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6">
+        <h2 class="text-white">Harga</h2>
+        <p class="text-white">Rp. 30.000</p>
       </div>
       <div class="col-md-6">
+        <h2 class="text-white">Jam Buka</h2>
+        <p class="text-white">12.00 AM</p>
       </div>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container my-4">
     <iframe width="100%" height="300px" frameborder="0" allowfullscreen src="//umap.openstreetmap.fr/en/map/situ-buleud_905308?scaleControl=false&miniMap=true&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container my-4">
     <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">

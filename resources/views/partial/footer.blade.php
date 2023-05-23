@@ -3,11 +3,10 @@
         <div class="col-11">
             <div class="row justify-content-center">
                 <div class="col-md-3 col-12 font-italic align-items-center mt-md-3 mt-4">
-                    <h5><span><img src="{{ asset('images/Logopurwakarta.png') }}" class="img-fluid mb-1"></span><b class="text-light"> Key<span class="text-muted"> Pass</span></b></h5>
+                    <h5><span><img src="{{ asset('images/Logopurwakarta.png') }}" class="img-fluid mb-1"></span><b class="text-light"><span class="text-muted"> Purwakata Journey</span></b></h5>
                     <p class="social mt-md-3 mt-2">
                         <span class="text-white"><i class="fa fa-facebook" aria-hidden="true"></i></span>
                         <span class="text-white"><i class="fa fa-instagram" aria-hidden="true"></i></span>
-                        <span class="text-white"><i class="fa fa-tiktok" aria-hidden="true"></i></span>
                         <span class="text-white"><i class="fa fa-twitter" aria-hidden="true"></i></span>
                     </p>
                     <small class="copy-rights cursor-pointer text-light">&#9400; 2019 EasyGo Digital Technologies</small><br>
