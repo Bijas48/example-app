@@ -9,10 +9,14 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Tour</a>
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"  href="#">Tour</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Public Service</a>
+                </li>
             </ul>
         </div>
     </div>

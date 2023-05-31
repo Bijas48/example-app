@@ -83,8 +83,6 @@
               <h5 class="card-title">Image Test</h5>
               <p class="card-text">Description of image</p>
               <div id="rate" class="d-flex align-items-center">
-                <i class="bi bi-star-fill"></i>
-                <p class="mb-0 ml-1"> 5</p>
               </div>
             </div>
           </a>
@@ -98,8 +96,6 @@
               <h5 class="card-title">Image Test</h5>
               <p class="card-text">Description of image</p>
               <div id="rate" class="d-flex align-items-center">
-                <i class="bi bi-star-fill"></i>
-                <p class="mb-0 ml-1"> 5</p>
               </div>
             </div>
           </a>
@@ -113,8 +109,6 @@
               <h5 class="card-title">Image Test</h5>
               <p class="card-text">Description of image</p>
               <div id="rate" class="d-flex align-items-center">
-                <i class="bi bi-star-fill"></i>
-                <p class="mb-0 ml-1"> 5</p>
               </div>
             </div>
           </a>
@@ -128,8 +122,6 @@
               <h5 class="card-title">Image Test</h5>
               <p class="card-text">Description of image</p>
               <div id="rate" class="d-flex align-items-center">
-                <i class="bi bi-star-fill"></i>
-                <p class="mb-0 ml-1"> 5</p>
               </div>
             </div>
           </a>
