@@ -36,3 +36,10 @@ Route::get('/post', function () {
 Route::get('/layanan', function () {
     return view('postlayanan');
 });
+
+Route::get('/wisata-kota', function () {
+    return view('wisata-kota');
+});
+Route::get('/wisata-alam', function () {
+    return view('wisata-alam');
+});
