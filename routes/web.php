@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\kotaController;
 use App\Http\Controllers\layananController;
+use App\Http\Controllers\tourController;
 use App\Http\Controllers\WisataKotaController;
 
 /*
@@ -18,9 +19,10 @@ use App\Http\Controllers\WisataKotaController;
 |
 */
 
-Route::get('/', function () {
-    return view('home1');
-});
+// Route::get('/', function () {
+//     return view('home1');
+// });
+Route::get('/', [HomeController::class, 'display']);
 
 // Route::get('/', [HomeController::class, 'index']);
 Route::get('/wisata-kota', [kotaController::class, 'display']);
@@ -30,6 +32,8 @@ Route::get('/wisata-alam', [alamController::class, 'display']);
 Route::get('/wisata-alam/{post:slug}', [alamController::class, 'show']);
 
 Route::get('/layanan', [layananController::class, 'display']);
+
+Route::get('/tour', [tourController::class, 'display']);
 
 // Route::get('/wisata-alam', function () {
 //     return view('wisataalam');
@@ -47,9 +51,9 @@ Route::get('/posts', function () {
     return view('posts');
 });
 
-Route::get('/tour', function () {
-    return view('post');
-});
+// Route::get('/tour', function () {
+//     return view('post');
+// });
 
 // Route::get('/layanan', function () {
 //     return view('layanan');

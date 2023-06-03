@@ -10,13 +10,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="http://127.0.0.1:8000/">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tour</a>
+                    <a class="nav-link" href="http://127.0.0.1:8000/tour">TOUR</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Public Service</a>
+                    <a class="nav-link" href="http://127.0.0.1:8000/layanan">PUBLIC SERVICE</a>
                 </li>
             </ul>
         </div>

@@ -47,137 +47,116 @@
         </button> --}}
     </div>
 
-    <!-- Div 2 - Card with Title -->
+    <!-- Public Service -->
     <div class="container my-5">
         <h1 class="text-center text-white">Public Service In Purwakarta</h1>
         <div class="row">
-            <div class="col-sm-3 col-md-4">
+            @foreach ($postslayanan as $index => $layanan)
+                <div class="col-sm-3 col-md-4">
+                    <div class="card">
+                        <a href="{{ $layanan->url }}">
+                            <img src="{{ $layanan->gambar }}" class="card-img-top" alt="...">
+                        </a>
+                    </div>
+                </div>
+                @if ($index === 2)
+                @break
+            @endif
+        @endforeach
+    </div>
+</div>
+
+
+<!-- Wisata -->
+<div id="wisata" class="my-5">
+    <div class="container">
+        <h1 class="text-center text-white">Popular Place In Purwakarta</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center">
+            {{-- wisata kota --}}
+            @php
+                $counter = 0;
+            @endphp
+            @foreach ($postskota as $kota)
+                @if ($counter >= 2)
+                @break
+            @endif
+            <div class="col-sm-3 col-md-3">
                 <div class="card">
-                    <a href="#">
-                        <img src="https://disipusda.purwakartakab.go.id/wp-content/uploads/2020/02/kantor-sekre.jpg"
-                            class="card-img-top" alt="...">
+                    <a href="/wisata-kota/{{ $kota->slug }}">
+                        <img src="{{ $kota->gambar }}" class="card-img-top" alt="Image">
+                        <div class="card-img-overlay d-flex flex-column justify-content-end">
+                            <h5 class="card-title">{{ $kota->nama }}</h5>
+                        </div>
                     </a>
                 </div>
             </div>
-            <div class="col-sm-3 col-md-4">
-                <div class="card">
-                    <a href="#">
-                        <img src="https://www.mandalapos.co.id/wp-content/uploads/2022/02/kemenag-purwakarta.png"
-                            class="card-img-top" alt="...">
-                    </a>
-                </div>
-            </div>
-            <div class="col-sm-3 col-md-4">
-                <div class="card">
-                    <a href="#">
-                        <img src="https://cdn0-production-images-kly.akamaized.net/4VHQS7Gfvmvm-LtcsEmtGjczWWE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/2966692/original/029988300_1573650229-image2__7_.jpeg"
-                            class="card-img-top" alt="...">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+            @php
+                $counter++;
+            @endphp
+        @endforeach
 
-
-    <div id="wisata my-5">
-        <div class="container my-5">
-            <h1 class="text-center text-white">Popular Place In Purwakarta</h1>
-            <div class=" row">
-                <div class="col-sm-3 col-md-3">
-                    <div class="card">
-                        <a href="">
-                            <img src="https://sikidang.com/wp-content/uploads/Taman-Air-Mancur-Sri-Baduga-1.jpg"
-                                class="card-img-top" alt="Image">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end">
-                                <h5 class="card-title">Image Test</h5>
-                                <p class="card-text">Description of image</p>
-                                <div id="rate" class="d-flex align-items-center">
-                                </div>
-                            </div>
-                        </a>
+        {{-- wisata alam --}}
+        @php
+            $counter = 0;
+        @endphp
+        @foreach ($postsalam as $alam)
+            @if ($counter >= 2)
+            @break
+        @endif
+        <div class="col-sm-3 col-md-3">
+            <div class="card">
+                <a href="/wisata-alam/{{ $alam->slug }}">
+                    <img src="{{ $alam->gambar }}" class="card-img-top" alt="Image">
+                    <div class="card-img-overlay d-flex flex-column justify-content-end">
+                        <h5 class="card-title">{{ $alam->nama }}</h5>
                     </div>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <div class="card">
-                        <a href="">
-                            <img src="https://lh3.googleusercontent.com/p/AF1QipMxLHB8LlpY1aUec8jlEqMYvN2W1FGTHjY295P7=s680-w680-h510"
-                                class="card-img-top" alt="Image">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end">
-                                <h5 class="card-title">Image Test</h5>
-                                <p class="card-text">Description of image</p>
-                                <div id="rate" class="d-flex align-items-center">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <div class="card">
-                        <a href="">
-                            <img src="https://www.javatravel.net/wp-content/uploads/2021/10/Kegiatan-Curug-Tilu.jpg"
-                                class="card-img-top" alt="Image">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end">
-                                <h5 class="card-title">Image Test</h5>
-                                <p class="card-text">Description of image</p>
-                                <div id="rate" class="d-flex align-items-center">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-md-3">
-                    <div class="card">
-                        <a href="">
-                            <img src="https://lh3.googleusercontent.com/p/AF1QipNmHYMZOQ42Cif8gwoifirbquKb0AdhkkTx33Ve=s680-w680-h510"
-                                class="card-img-top" alt="Image">
-                            <div class="card-img-overlay d-flex flex-column justify-content-end">
-                                <h5 class="card-title">Image Test</h5>
-                                <p class="card-text">Description of image</p>
-                                <div id="rate" class="d-flex align-items-center">
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                </a>
             </div>
         </div>
-    </div>
+        @php
+            $counter++;
+        @endphp
+    @endforeach
+</div>
+</div>
+</div>
 
-    <hr class="text-white my-5">
 
-    <div class="container my-5 testi">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="testimonial-slider" class="owl-carousel">
-                    <div class="testimonial">
-                        <h3 class="title">Ujang
-                            <span class="post">- Seorang bapak</span>
-                        </h3>
-                        <p class="description">
-                            Purwakarta journey sangat membantu saya dalam bertamsya di Kota Istimewa ini
-                        </p>
-                    </div>
-                    <div class="testimonial">
-                        <h3 class="title">Emah
-                            <span class="post">- Ibu PKK</span>
-                        </h3>
-                        <p class="description">
-                            Purwakarta Journey adalah sebuah web yang luar biasa! Mereka menyediakan informasi yang lengkap
-                            dan akurat tentang wisata alam di Purwakarta. Dengan bantuan web ini, saya bisa menemukan
-                            destinasi alam yang menakjubkan dan tersembunyi di daerah tersebut.
-                        </p>
-                    </div>
-                    <div class="testimonial">
-                        <h3 class="title">Obleh
-                            <span class="post">- Pengusaha</span>
-                        </h3>
-                        <p class="description">
-                            Informasi yang disediakan sangat berguna, terutama tentang wisata alam di Purwakarta. Saya
-                            mendapatkan banyak ide destinasi menarik yang belum pernah saya dengar sebelumnya.
-                        </p>
-                    </div>
-                </div>
-            </div>
+<hr class="text-white my-5">
+
+<div class="container my-5 testi">
+<div class="row">
+<div class="col-md-12">
+    <div id="testimonial-slider" class="owl-carousel">
+        <div class="testimonial">
+            <h3 class="title">Ujang
+                <span class="post">- Seorang bapak</span>
+            </h3>
+            <p class="description">
+                Purwakarta journey sangat membantu saya dalam bertamsya di Kota Istimewa ini
+            </p>
+        </div>
+        <div class="testimonial">
+            <h3 class="title">Emah
+                <span class="post">- Ibu PKK</span>
+            </h3>
+            <p class="description">
+                Purwakarta Journey adalah sebuah web yang luar biasa! Mereka menyediakan informasi yang lengkap
+                dan akurat tentang wisata alam di Purwakarta. Dengan bantuan web ini, saya bisa menemukan
+                destinasi alam yang menakjubkan dan tersembunyi di daerah tersebut.
+            </p>
+        </div>
+        <div class="testimonial">
+            <h3 class="title">Obleh
+                <span class="post">- Pengusaha</span>
+            </h3>
+            <p class="description">
+                Informasi yang disediakan sangat berguna, terutama tentang wisata alam di Purwakarta. Saya
+                mendapatkan banyak ide destinasi menarik yang belum pernah saya dengar sebelumnya.
+            </p>
         </div>
     </div>
+</div>
+</div>
+</div>
 @endsection

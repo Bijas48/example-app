@@ -33,9 +33,9 @@
                 <div class="col-xl-auto col-md-3 col-12 my-sm-0 mt-5">
                     <ul class="list-unstyled">
                         <li class="mt-md-3 mt-4">POST</li>
-                        <li><a href="#">WISATA KOTA</a></li>
-                        <li><a href="#">WISATA ALAM</a></li>
-                        <li><a href="#">LAYANAN PUBLIK</a></li>
+                        <li><a href="http://127.0.0.1:8000/wisata-kota">WISATA KOTA</a></li>
+                        <li><a href="http://127.0.0.1:8000/wisata-alam">WISATA ALAM</a></li>
+                        <li><a href="http://127.0.0.1:8000/layanan">LAYANAN PUBLIK</a></li>
                     </ul>
                 </div>
             </div>

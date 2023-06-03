@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\alam;
 use App\Models\kota;
+use App\Models\layanan;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -12,8 +13,9 @@ class HomeController extends Controller
     {
 
         return view('home1', [
-            'postsalam' => alam::all(),
-            'postkota' => kota::all(),
+            'postslayanan' => layanan::all(),
+            'postsalam' => alam::all()->shuffle(),
+            'postskota' => kota::all()->shuffle(),
         ]);
     }
 }
