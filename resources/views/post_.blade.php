@@ -7,15 +7,17 @@
                 <h1 class="text-white">Temukan Destinasi Wisata Anda</h1>
             </div>
             <div class="col-md-5 mx-auto">
-                <form action="{{ url('/tour/search') }}" class="form-inline" method="GET">
-                    <div class="input-group rounded">
-                        <input type="search" class="form-control rounded" name="search" placeholder="Temukan Wisata Anda"
-                            aria-label="Search" aria-describedby="search-addon" />
-                        <button class="btn btn-outline-secondary bg-white border-0" type="submit">
-                            <i class="fas fa-search"></i>
+                <div class="small fw-light"></div>
+                <div class="input-group">
+                    <input class="form-control border-end-0 border" type="search" value="" id="example-search-input"
+                        placeholder="Temukan Wisata Anda">
+                    <span class="input-group-append">
+                        <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5"
+                            type="button">
+                            <i class="fa fa-search"></i>
                         </button>
-                    </div>
-                </form>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
@@ -30,7 +32,7 @@
                     <div class="col mb-4">
                         <div class="card h-100">
                             <a href="/wisata-alam/{{ $alam->slug }}">
-                                <img src="{{ asset($alam->gambar) }}" class="card-img-top" alt="Image">
+                                <img src="{{ $alam->gambar }}" class="card-img-top" alt="Image">
                                 <div class="card-img-overlay d-flex flex-column justify-content-end">
                                     <h5 class="card-title">{{ $alam->nama }}</h5>
                                     {{-- <p class="card-text">Description of image</p> --}}
@@ -54,7 +56,7 @@
                     <div class="col mb-4">
                         <div class="card h-100">
                             <a href="/wisata-kota/{{ $kota->slug }}">
-                                <img src="{{ asset($kota->gambar) }}" class="card-img-top" alt="Image">
+                                <img src="{{ $kota->gambar }}" class="card-img-top" alt="Image">
                                 <div class="card-img-overlay d-flex flex-column justify-content-end">
                                     <h5 class="card-title">{{ $kota->nama }}</h5>
                                     {{-- <p class="card-text">Description of image</p> --}}

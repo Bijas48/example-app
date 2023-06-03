@@ -35,6 +35,8 @@ Route::get('/layanan', [layananController::class, 'display']);
 
 Route::get('/tour', [tourController::class, 'display']);
 
+Route::get('/tour/search', [tourController::class, 'search']);
+
 // Route::get('/wisata-alam', function () {
 //     return view('wisataalam');
 // });
