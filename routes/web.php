@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\kotaController;
+use App\Http\Controllers\WisataKotaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +19,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home1');
 });
+
+// Route::get('/', [HomeController::class, 'index']);
+Route::get('/wisata-kota', [kotaController::class, 'display']);
+Route::get('/wisata-kota/{post:slug}', [kotaController::class, 'show']);
 
 Route::get('/test', function () {
     return view('home2');
@@ -37,9 +44,14 @@ Route::get('/layanan', function () {
     return view('postlayanan');
 });
 
-Route::get('/wisata-kota', function () {
-    return view('wisata-kota');
-});
+// Route::get('/wisatakota', function () {
+//     return view('wisatakota', [
+//         "test" => 'Masuk apa ngk'
+//     ]);
+// });
+
+// Route::get('/wisatakota', [kotaController::class, 'display']);
+
 Route::get('/wisata-alam', function () {
     return view('wisata-alam');
 });
