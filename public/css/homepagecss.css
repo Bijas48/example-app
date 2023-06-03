@@ -2,6 +2,7 @@
 
 .navbar .navbar-collapse .nav-item .nav-link{
     color: black;
+    font-family: "Mukta", sans-serif;
 }
 
 .navbar .navbar-collapse .nav-item .nav-link.active {
@@ -19,7 +20,7 @@
 .card-img-overlay h5 {
     color: #EC994B;
 }
-  
+
   .card-img-overlay p {
     color : #EC994B;
 }
@@ -36,12 +37,12 @@
     transition: opacity 0.2s ease-in-out, filter 0.2s ease-in-out;
     filter: blur(5px);
   }
-  
+
   .card-img-overlay:hover {
     opacity: 1;
     filter: blur(0);
   }
-  
+
   .card-img-overlay h5, .card-img-overlay p {
     filter: none;
   }
@@ -180,7 +181,7 @@ ul.list-unstyled > li:first-child {
   padding-bottom: 20px;
   color: white;
 
-  
+
 }
 ul.list-unstyled > li:not(:first-child) {
   font-family: "Mukta", sans-serif;
@@ -191,7 +192,7 @@ ul.list-unstyled > li:not(:first-child) {
   text-align: left;
   padding-bottom: 32px;
   color: rgba(255, 255, 255, 0.5);
-  
+
 }
 
 .list-unstyled li a {
@@ -207,28 +208,28 @@ ul.list-unstyled > li:not(:first-child) {
     padding: 15px;
     text-align: center;
   }
-  
+
   .center-rate {
     display: flex; /* use flexbox for vertical alignment */
     align-items: center; /* center items vertically */
     margin: auto;
   }
-  
+
   .center-rate h3 {
     display: inline-block;
     margin: 0;
     margin-right: 10px; /* add some space between h3 and rating */
   }
-  
+
   .rating {
     border: none;
     display: inline-block;
   }
-  
+
   .rating > input {
     display: none;
   }
-  
+
   .rating > label:before {
     content: '\f005';
     font-family: FontAwesome;
@@ -237,25 +238,25 @@ ul.list-unstyled > li:not(:first-child) {
     display: inline-block;
     cursor: pointer;
   }
-  
+
   .rating > .half:before {
     content: '\f089';
     position: absolute;
     cursor: pointer;
   }
-  
+
   .rating > label {
     color: #ddd;
     float: right;
     cursor: pointer;
   }
-  
+
   .rating > input:checked ~ label,
   .rating:not(:checked) > label:hover,
   .rating:not(:checked) > label:hover ~ label {
     color: #EC994B;
   }
-  
+
   .rating > input:checked + label:hover,
   .rating > input:checked ~ label:hover,
   .rating > label:hover ~ input:checked ~ label,
@@ -287,9 +288,14 @@ ul.list-unstyled > li:not(:first-child) {
 .save #save-text {
   margin-top: 5px;
   color: #fcfcfc;
-} 
+}
 
 /* ========Layanan========= */
+
+a.service-card {
+    text-decoration: none;
+    color: inherit;
+}
 
 .service-card {
   background-color: #222;

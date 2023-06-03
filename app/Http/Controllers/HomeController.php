@@ -2,17 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\alam;
+use App\Models\kota;
 use Illuminate\Http\Request;
-use App\Models\WisataKota;
-use App\Models\WisataAlam;
 
 class HomeController extends Controller
 {
     public function display()
     {
 
-        return view('wisata-kota', [
-            'posts' => WisataAlam::all()
+        return view('home1', [
+            'postsalam' => alam::all(),
+            'postkota' => kota::all(),
         ]);
     }
 }
