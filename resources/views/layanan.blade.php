@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col-12">
                 @foreach ($posts as $layanan)
-                    <a href="{{ $layanan->url }}" class="service-card">
+                    <a href="/layanan/{{ $layanan->slug }}" class="service-card">
                         <div class="card-image">
                             <img src="{{ $layanan->gambar }}" alt="">
                         </div>

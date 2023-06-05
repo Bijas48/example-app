@@ -21,6 +21,8 @@ return new class extends Migration
             $table->text('jambuka');
             $table->text('lokasi');
             $table->text('gmaps');
+            $table->string('telp');
+            $table->string('email');
             $table->text('url');
             $table->timestamps();
         });

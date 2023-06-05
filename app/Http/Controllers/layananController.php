@@ -13,4 +13,11 @@ class layananController extends Controller
             "posts" => layanan::all()
         ]);
     }
+
+    public function show(layanan $post)
+    {
+        return view('postslayanan', [
+            'posts' => $post
+        ]);
+    }
 }

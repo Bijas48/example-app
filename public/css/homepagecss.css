@@ -1,4 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
 
 .navbar .navbar-collapse .nav-item .nav-link{
     color: black;
@@ -18,7 +19,10 @@
 
 /* Card Blur  */
 .card-img-overlay h5 {
-    color: #EC994B;
+    font-family: 'Antonio', Courier, monospace;
+    font-size: 30px;
+    color:#ddd;
+
 }
 
   .card-img-overlay p {
@@ -49,7 +53,7 @@
 
   /* Card for Wisata */
   .card .card-img-top {
-    height: 200px; /* Adjust the height as per your preference */
+    height: 311.04px; /* Adjust the height as per your preference */
     object-fit: cover;
   }
 
@@ -333,3 +337,8 @@ a.service-card {
 }
 
 /* ===== */
+
+#anchorbelowgmaps a {
+    text-decoration: none;
+    color: inherit;
+  }

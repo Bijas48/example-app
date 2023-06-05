@@ -32,6 +32,7 @@ Route::get('/wisata-alam', [alamController::class, 'display']);
 Route::get('/wisata-alam/{post:slug}', [alamController::class, 'show']);
 
 Route::get('/layanan', [layananController::class, 'display']);
+Route::get('/layanan/{post:slug}', [layananController::class, 'show']);
 
 Route::get('/tour', [tourController::class, 'display']);
 

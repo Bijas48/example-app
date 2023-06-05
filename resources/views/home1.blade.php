@@ -54,7 +54,7 @@
             @foreach ($postslayanan as $index => $layanan)
                 <div class="col-sm-3 col-md-4">
                     <div class="card">
-                        <a href="{{ $layanan->url }}">
+                        <a href="/layanan/{{ $layanan->slug }}">
                             <img src="{{ $layanan->gambar }}" class="card-img-top" alt="...">
                         </a>
                     </div>
