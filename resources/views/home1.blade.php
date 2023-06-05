@@ -13,28 +13,31 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <div class="overlay"></div>
                 <img src="{{ asset('images/Slide/patung_badak.jpg') }}" class="d-block w-100" alt="Image 1" width="714"
                     height="450">
-                <div class="carousel-caption d-none d-md-block">
-                    {{-- <h5>Image 1</h5>
-        <p>Description of image 1</p> --}}
-                </div>
+                {{-- <div class="content">
+                    <h5>Image 1</h5>
+                    <p>Description of image 1</p>
+                </div> --}}
             </div>
             <div class="carousel-item">
+                <div class="overlay"></div>
                 <img src="{{ asset('images/Slide/Curug-tilu.jpg') }}" class="d-block w-100" alt="Image 2" width="500px"
                     height="500px">
-                <div class="carousel-caption d-none d-md-block">
-                    {{-- <h5>Image 2</h5>
-        <p>Description of image 2</p> --}}
-                </div>
+                {{-- <div class="content">
+                    <h5>Image 2</h5>
+                    <p>Description of image 2</p>
+                </div> --}}
             </div>
             <div class="carousel-item">
+                <div class="overlay"></div>
                 <img src="{{ asset('images/Slide/taman_sri_baduga.jpg') }}" class="d-block w-100" alt="Image 3"
                     width="500px" height="500px">
-                <div class="carousel-caption d-none d-md-block">
-                    {{-- <h5>Image 3</h5>
-        <p>Description of image 3</p> --}}
-                </div>
+                {{-- <div class="content">
+                    <h5>Image 3</h5>
+                    <p>Description of image 3</p>
+                </div> --}}
             </div>
         </div>
         {{-- <button class="carousel-controlprev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

@@ -20,7 +20,6 @@ return new class extends Migration
             $table->string('harga');
             $table->string('jambuka');
             $table->text('lokasi');
-            $table->timestamps();
         });
     }
 

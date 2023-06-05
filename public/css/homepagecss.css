@@ -1,9 +1,10 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
 @import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
 
 .navbar .navbar-collapse .nav-item .nav-link{
     color: black;
-    font-family: "Mukta", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .navbar .navbar-collapse .nav-item .nav-link.active {
@@ -16,6 +17,10 @@
     margin-bottom: 12px;
 }
 
+/* ======Carousel======= */
+
+
+/* =========== */
 
 /* Card Blur  */
 .card-img-overlay h5 {

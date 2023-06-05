@@ -6,15 +6,15 @@
                     <h5><span><img src="{{ asset('images/Logopurwakarta.png') }}" class="img-fluid mb-1"></span></h5>
                     <h5 class="text-center"><b class="text-light"><span class="text-muted"> Purwakata Journey</span></b>
                     </h5>
-                    <p class="social mt-md-3 mt-2 d-flex justify-content-center">
+                    {{-- <p class="social mt-md-3 mt-2 d-flex justify-content-center">
                         <a href="#"><i class="bi bi-facebook text-white fs-3 me-4"></i></a> <!-- Facebook icon -->
                         <a href="#"><i class="bi bi-instagram text-white fs-3 me-4"></i></a>
                         <!-- Instagram icon -->
                         <a href="#"><i class="bi bi-twitter text-white fs-3 me-4"></i></a> <!-- Twitter icon -->
-                    </p>
-                    <small class="copy-rights cursor-pointer text-light">&#9400; 2019 EasyGo Digital
+                    </p> --}}
+                    {{-- <small class="copy-rights cursor-pointer text-light">&#9400; 2019 EasyGo Digital
                         Technologies</small><br>
-                    <small class="text-light">Copyright. All Rights Reserved.</small>
+                    <small class="text-light">Copyright. All Rights Reserved.</small> --}}
                 </div>
                 <div class="col-md-3 col-12 my-sm-0 mt-5">
                     <ul class="list-unstyled">
