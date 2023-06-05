@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light sticky-top py-3 px-3" style="background-color: #73777B ;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="http://127.0.0.1:8000/">
             <img src="{{ asset('images/Logopurwakarta.png') }}" alt="Logo" height="30">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

@@ -19,15 +19,19 @@
                 <div class="col-md-3 col-12 my-sm-0 mt-5">
                     <ul class="list-unstyled">
                         <li class="mt-md-3 mt-4">COMPANY</li>
-                        <li><a href="#">LOCATION</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="https://www.google.com/maps/place/Purwakarta,+Kec.+Purwakarta,+Kabupaten+Purwakarta,+Jawa+Barat/@-6.5413291,107.4138443,13z/data=!3m1!4b1!4m6!3m5!1s0x2e690e60454c6667:0x7ee7eda6d6e4556f!8m2!3d-6.5406665!4d107.4462717!16zL20vMGdjODZ6?entry=ttu"
+                                target="_blank">LOCATION</a>
+                        </li>
+                        <li><a href="mailto:purwakartajourney@gmail.com?subject=Re: Inquiry&body=Hi Admin Purwkarta, bagaimana."
+                                target="_blank">CONTACT</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-3 col-12 my-sm-0 mt-5">
                     <ul class="list-unstyled">
                         <li class="mt-md-3 mt-4">ABOUT US</li>
-                        <li><a href="#">OUR TEAM</a></li>
-                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="https://s.id/ourteamspwkjourney" target="_blank">OUR TEAM</a></li>
+                        <li><a href="https://www.facebook.com/purwakartajourney/" target="_blank">ABOUT</a></li>
                     </ul>
                 </div>
                 <div class="col-xl-auto col-md-3 col-12 my-sm-0 mt-5">

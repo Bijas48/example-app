@@ -61,20 +61,24 @@
                 <div class="carousel-item active">
                     <div class="row g-0">
                         <div class="col-sm-6 col-md-3">
-                            <img src="https://picsum.photos/id/120/100/100" class="d-block w-100" alt="Gallery 1">
+                            <img src="{{ asset('images\Fotoviewmore\gunung bangkok\DSC07483.jpg') }}"
+                                class="d-block w-100 h-100" alt="Gallery 1">
                         </div>
                         <div class="col-sm-6 col-md-3">
-                            <img src="https://picsum.photos/id/130/100/100" class="d-block w-100" alt="Gallery 2">
+                            <img src="{{ asset('images\Fotoviewmore\gunung bangkok\Gunung-Bangkok.jpg') }}"
+                                class="d-block w-100 h-100" alt="Gallery 2">
                         </div>
                         <div class="col-sm-6 col-md-3">
-                            <img src="https://picsum.photos/id/203/100/100" class="d-block w-100" alt="Gallery 3">
+                            <img src="{{ asset('images\Fotoviewmore\gunung bangkok\OIP.jpg') }}" class="d-block w-100 h-100"
+                                alt="Gallery 3">
                         </div>
                         <div class="col-sm-6 col-md-3">
-                            <img src="https://picsum.photos/id/223/100/100" class="d-block w-100" alt="Gallery 4">
+                            <img src="{{ asset('images\Fotoviewmore\gunung bangkok\R.jpg') }}" class="d-block w-100 h-100"
+                                alt="Gallery 4">
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                {{-- <div class="carousel-item">
                     <div class="row g-0">
                         <div class="col-sm-6 col-md-3">
                             <img src="https://picsum.photos/id/123/100/100" class="d-block w-100" alt="Gallery 5">
@@ -89,7 +93,7 @@
                             <img src="https://picsum.photos/id/253/100/100" class="d-block w-100" alt="Gallery 8">
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
